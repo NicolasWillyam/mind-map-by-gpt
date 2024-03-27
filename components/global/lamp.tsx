@@ -21,8 +21,12 @@ export function LampComponent() {
         }}
         className="bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Plans That
-        <br /> Fit You Best
+        {/* Plans That
+        <br /> Fit You Best */}
+        <h1 className="text-2xl md:text-6xl font-bold dark:text-white">
+          Choose The Plans <br />
+          That Fit You Best
+        </h1>
       </motion.h1>
     </div>
   );
